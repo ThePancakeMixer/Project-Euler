@@ -5,9 +5,8 @@ using namespace std;
 int smallestPositive(){
     bool isDivisible=false; //flag to see if input is evenly divisible
     int smallestPositive = 20;//var to hold smallest positive divisible by 1-20
-
+    
     loopback:
-
     smallestPositive++; //check next number
     while(!isDivisible){ //while no number is found
         isDivisible=true; //innocent until proven guilty
