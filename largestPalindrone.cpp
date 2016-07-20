@@ -33,6 +33,7 @@ bool isPal(int input){ //returns true if input is palindrome, false if not
 }
 
 
+
 int main() { //finds the largest palindrome that is teh product of two 3-digit #'s
     int i,j; //2 loop control variables to test all multiples of 3 digit number
     int temp; //used to store LATEST palindrome found by code
