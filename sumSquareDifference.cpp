@@ -5,7 +5,6 @@ using namespace std;
 
 
 int sumSquareDifference(){
-
     int sumS=0;//int to store sum of squares
     int sqS=0;//int to store square of sum
     int answer; //variable to store answer
