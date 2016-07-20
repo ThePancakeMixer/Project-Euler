@@ -2,6 +2,7 @@
 #include <math.h>
 using namespace std;
 
+
 bool isPrime(int input){
     if(input==1){ //base case
         return false;
