@@ -2,8 +2,6 @@
 #include <math.h>
 using namespace std;
 
-
-
 int smallestPositive(){
     bool isDivisible=false; //flag to see if input is evenly divisible
     int smallestPositive = 20;//var to hold smallest positive divisible by 1-20
