@@ -21,7 +21,6 @@ int countChain(double n){ //returns # of numbers in sequence w/ starting # n
     return numbers; //return numbers in sequecne
 }
 
-
 int largestChain() {
     int temp; //var to hold #s in sequence that is being calculated
     int final = 0; //largest digits the program has found so far
