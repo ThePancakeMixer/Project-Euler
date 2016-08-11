@@ -9,9 +9,9 @@ void bigFact(int input, int* solArray){
 		for(int j = 299; j>5; j--){ //iterate tru each digit in solArray
 			while(solArray[j]==0) //skips all collumns where digit is 0 (0*x = 0)
 				break;
-			solArray[j]*=i;
+			solArray[j]*=i; //multiply each row by current i
 		}
-		for(int x = 299; x>5; x--){
+		for(int x = 299; x>5; x--){ //if a collumn value exceeds 10 shift over all but 1 digits
 			if(solArray[x]>9){
 				solArray[x-1]+= solArray[x]/10;
 				solArray[x]%=10;
